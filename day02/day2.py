@@ -1,5 +1,3 @@
-import math
-
 print("========== PART 1 ==========")
 
 inFile = open("day2.txt")
