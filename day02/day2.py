@@ -3,8 +3,8 @@ import math
 print("========== PART 1 ==========")
 
 inFile = open("day2.txt")
-
 arr = [line.replace("\n", "").split(" ") for line in inFile]
+
 count = 0
 for pwd in arr:
     lower = int(pwd[0].split("-")[0])
